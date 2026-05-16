@@ -1,5 +1,6 @@
 #![no_std]
 pub mod error;
+pub mod types;
 use soroban_sdk::{contract, contractimpl, Env};
 
 /// Enforces guardian-controlled spending policies for child wallet accounts on the Stellar network.
